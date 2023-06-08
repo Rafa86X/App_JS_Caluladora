@@ -1,0 +1,74 @@
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(240, 240, 202);
+    user-select: none;
+}
+
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 580px;
+    background-color: rgb(139, 139, 0);
+    border-radius: 10px;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 90%;
+    height: 100px;
+    background-color: black;
+    margin: 20px 0;
+    border-radius: 10px;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: turquoise;
+    padding: 0 10px;
+}
+
+.botoes{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 96%;
+    height: 430px;
+}
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    height: 75px;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.CE{
+    width: 280px;
+}
+
+
+
+.botao:active{
+    border-color: yellow;
+    box-shadow: 0 0 50px yellow;
+    background-color: rgb(255, 252, 252);
+    color: yellow;
+    text-shadow: 0 0 20px purple;
+
+}
